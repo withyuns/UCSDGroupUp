@@ -7,6 +7,9 @@
      width: 525px;
 }
 
+.description_page {
+     background-color: #eeeeee;
+}
 .example-class-selector {
 	margin-top: 2em;
 }
