@@ -1,5 +1,16 @@
 /* applies to anything of class "example-class-selector" */
 
+
+
+#top {
+     padding-top: 0px;
+     margin-top: 0px;
+     background-color: #eeeeee;
+}
+
+.class_descrip {
+     background-color: #eeeeee;
+}
 .project {
      margin-left: 20px;
      background-color: #eeeeee;
@@ -23,8 +34,9 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 1px dotted gray; 
+     margin: 0 !important;
+     padding: 0 !important;
 }
 
 .jumbotron {
