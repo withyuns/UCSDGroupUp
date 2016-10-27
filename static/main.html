@@ -18,6 +18,17 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/introHCI.css" rel="stylesheet">
+    <style>
+      .column{
+        column-count: 3;
+      
+        column-gap: 40px;
+      
+        column-rule-style: solid;
+      
+        column-rule-width: 1px;
+      }
+    </style>
 </head>
 
 <body>
@@ -48,28 +59,14 @@
     </div>
   </div>
 
-  <p>Path: Home > main > Class of CSE 170/COGS 120</p>
+  <p>Path: Home > main > Class of CSE 170/COGS 120</p><br>
 
-   
-   <h1 align="center">Group List</h3><br>
-
-   <table>
-  <td>
-  CLASS LIST
-  </td>
-  <td>
+   <br>
+   <h1 align="center">Group List</h1><br>
+   <div class="col-md-4" align="left">CLASS LIST</div>
+   <div class="col-md-4" align="center">GROUP LIST</div>
+   <div class="col-md-4" align="right">GROUP IN-PERSON GROUP ONLINE</div>
   
-  </td>
-
-  <tr>
-  GROUP LIST
-  </tr>
-  <tr>
-  <td>GROUP IN-PERSON</td>
-  <td>GROUP ONLINE</td>
-  </tr>
-</table>
-
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
