@@ -79,3 +79,17 @@ body {
      font-family: Tahoma;
      font-size: 150%;
 }
+
+.dropdown {
+     text-align: center;
+}
+
+.dropdown-menu {
+     position: absolute;
+     right:0;
+     margin-top:75px;
+}
+
+#dLabel {
+     width:400px;    
+}
