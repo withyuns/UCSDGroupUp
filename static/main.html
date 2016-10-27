@@ -19,15 +19,9 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/introHCI.css" rel="stylesheet">
     <style>
-      .column{
-        column-count: 3;
-      
-        column-gap: 40px;
-      
-        column-rule-style: solid;
-      
-        column-rule-width: 1px;
-      }
+    table, th, td, tr {
+      padding: 20px;
+    }
     </style>
 </head>
 
@@ -38,15 +32,14 @@
       <div class="col-md-4">
 
       </div>
-      <div class="col-md-4" align="center"><a href="main.html"><h2>/* TODO: Logo Here (.png) */</h2></a></div>
+      <div class="col-md-4" align="center"><a href="main.html"><h2><img src="images/logo.png" width="400px"></h2></a></div>
       <div class="col-md-4">
           <!--- #[ Drop Down menu ] -->
           <div class="dropdown">
-          <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Setting
+          <a id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <img src="images/cogwheel.png" align="right" width="100px"></a>
             <span class="caret" align="middle"></span>
-          </a>
-
+        
           <ul class="dropdown-menu" aria-labelledby="dLabel">
               <a href="main.html">My page</a><br>
               <a href="setting.html">My Account</a><br>
@@ -59,25 +52,48 @@
     </div>
   </div>
 
-  <p>Path: Home > main > Class of CSE 170/COGS 120</p><br>
-
    <br>
-   <h1 align="center">Group List</h1><br>
-   <div class="col-md-4" align="left">CLASS LIST</div>
-   <div class="col-md-4" align="center">GROUP LIST</div>
-   <div class="col-md-4" align="right">GROUP IN-PERSON GROUP ONLINE</div>
-  
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search for...">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-    </div><!-- /input-group -->
 
-   <p align=center><br><br><br>
-      Create the group :
-      <a href="group_create.html">Create a group</a><br>
-   </p>
+   <!-- Dividing into columns starts here -->
+   <div class="col-md-4" align="center">
+    <table>
+      <tr>
+        <td><img src="images/myclasses.png" width="100%"></td>
+      </tr>
+      <tr>
+        <td align="center">CSE 170</td>
+      </tr>
+      <tr>
+        <td> 
+          <div class="input-group" align="center">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+            </span>
+          </div><!-- /input-group -->
+        </td>
+      </tr>
+    </table>
+  </div>
+
+   <div class="col-md-8" align="center">
+    <table>
+      <tr>
+        <td colspan="2">
+          <div align="center">
+            <img src="images/mygroups.png" width="70%">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td align="center"><u>IN-PERSON</u></td>
+        <td align="center"><u>ONLINE</u></td>
+      </tr>
+      <tr>
+        <td align="center">Let's break a Leg!</td>
+      </tr>
+    </table>
+   </div>
 
    <!-- jQuery (necessary for Bootstrap's Javascript Plugins) -->
    <script src="https://code.jquery.com/jquery.js"></script>

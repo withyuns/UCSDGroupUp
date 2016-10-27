@@ -34,10 +34,12 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     /*
      border: 1px dotted gray; 
      margin: 0 !important;
      padding: 0 !important;
      background-color: #eeeeee;
+     */
 }
 
 .jumbotron {
