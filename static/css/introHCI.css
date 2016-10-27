@@ -66,9 +66,14 @@ body {
 /*********************************/
 #groupListheader {
      position: relative;
-     left: 67%;
+     left: 66%;
 }
 
 .input-group {
      width: 500px;
+}
+
+.col-md-4 {
+     font-family: Tahoma;
+     font-size: 150%;
 }
