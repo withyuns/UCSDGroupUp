@@ -82,12 +82,13 @@ body {
 
 .dropdown {
      text-align: center;
+     float:right;
+     right:30px;
+     top:10px;
 }
 
 .dropdown-menu {
-     position: absolute;
-     right:0;
-     margin-top:75px;
+     position: relative; 
 }
 
 #dLabel {
