@@ -54,17 +54,24 @@
     <!--- #[ Group List ] -->
     <div class="row">
       <div class="col-md-3"></div>
-      <div class="col-md-6" align="center">
+      <div class="col-md-6" align="center"></div>
 
         <!--- Each Group Contents start here -->
-        <p class="class_list" align="center">
+        <p class="class_list" align="left">
             <div class="class_elem">
             
-              <button href="#" class="btn btn-default navbar-btn" data-toggle="collapse" data-target="#demo1"><h2>Study For Midterm! Midterm #2</h2>
-                In-Person, Max: 5 people
-              </button>
+              <div class="col-xs-12 container-fluid panel panel-default" data-toggle="collapse" data-target="#demo1">
+                <div id ="class_panel">
+                  <div class="panel-body">
+                   <h2>Study For Midterm! Midterm #2</h2>
+                      <p>In-Person, Max: 5 people</p>
+                </div>
+              </div>
               <div id="demo1" class="collapse">
-                <p class="class_descrip"> <br>Hey guys! This is group for midterm!<br>
+                <p class="class_descrip"> 
+                      <br>Description: Hey guys! This is group for midterm!<br>
+                      <br>Location: Geisel, 2nd floor West</br>
+                      <br>Time: 2 - 4 PM </br>
                 <a href="group_inPerson.html"><br><img src="images/button_join.png" width="300px"></a><br></p>
               </p></div>
             </div>
@@ -74,11 +81,16 @@
         <p class="class_list" align="center">
             <div class="class_elem">
             
-              <button href="#" class="btn btn-default navbar-btn" data-toggle="collapse" data-target="#demo2"><h2>Class Forum, for searching web-developer Job</h2>
-                Online, Max: 10 people
-              </button>
+              <div class="col-xs-12 container-fluid panel panel-default" data-toggle="collapse" data-target="#demo2">
+                <div class="panel-body">
+                  <h2 class="text-uppercase">Class Forum, for searching web-developer Job</h2>
+                    <p>Online, Max: 10 people</p>
+              </div>
               <div id="demo2" class="collapse">
-                <p class="class_descrip"> <br> Hello, this is the forum where those interested in finding a job as a web-developer! <br>
+                <p class="class_descrip"> 
+                      <br> Description: Hello, this is the forum where those interested in finding a job as a web-developer! <br>
+                      <br> Location: Online </br>
+                      <br> Time: 10 - 12 PM </br>
                 <a href="group_online.html"><br><img src="images/button_join.png" width="300px"></a><br></p>
               </p></div>
             </div>
@@ -88,11 +100,16 @@
         <p class="class_list" align="center">
             <div class="class_elem">
             
-              <button href="#" class="btn btn-default navbar-btn" data-toggle="collapse" data-target="#demo3"><h2>Tutor group for Javascript/Node.js/Front-end</h2>
-                In-Person, Max: 100 people
-              </button>
+              <div class="col-xs-12 container-fluid panel panel-default" data-toggle="collapse" data-target="#demo3">
+                <div class="panel-body">
+                  <h2>Tutor group for Javascript/Node.js/Front-end</h2>
+                    <p>In-Person, Max: 100 people</p>
+              </div>
               <div id="demo3" class="collapse">
-                <p class="class_descrip"> <br>Please be kind, courteous, and helpful. <br>
+                <p class="class_descrip"> 
+                      <br>Decription: Please be kind, courteous, and helpful. </br>
+                      <br>Location: Biomedical Library</br>
+                      <br>Time: 9 - 11 AM</br>
                 <a href="group_inPerson.html"><br><img src="images/button_join.png" width="300px"></a><br></p>
               </p></div>
             </div>
@@ -103,11 +120,18 @@
         <p class="class_list" align="center">
             <div class="class_elem">
             
-              <button href="#" class="btn btn-default navbar-btn" data-toggle="collapse" data-target="#demo4"><h2>Project group for class website! Work together online!</h2>
-                Online, Max: 10 people
-              </button>
+              <!-- <div class="panel panel-default" data-toggle="collapse" data-target="#demo4">
+                <div class="panel-body"> -->
+                  <div class="col-xs-12 container-fluid panel panel-default" data-toggle="collapse" data-target="#demo4">
+                    <div class="panel-body"> 
+                        <h2>Project group for class website! Work together online!</h2>
+                            <p>Online, Max: 10 people</p>
+                  </div>
               <div id="demo4" class="collapse">
-                <p class="class_descrip"> <br>Hello all! Feel free to join and help each other out!<br>
+                <p class="class_descrip"> 
+                      <br>Description: Hello all! Feel free to join and help each other out!<br>
+                      <br>Location: Online</br>
+                      <br>Time: 12 - 2 PM</br>
                 <a href="group_online.html"><br><img src="images/button_join.png" width="300px"></a><br></p>
               </p></div>
             </div>
@@ -120,9 +144,18 @@
       <div class="col-md-3"></div>
     </div>
 
-   <p align=center><br><br><br>
-      <button href="#" type="button" class="btn btn-default navbar-btn"><font color="white"><a href="group_create.html">Create a group!</button></a><br></font>
-   </p>
+   <!--<p align=center ><br><br><br>
+      <button href="#" type="button" class="btn btn-default navbar-btn">
+        <font color="white">
+          <a href="group_create.html">Create a group!</a>
+        </font>
+        </br>
+      </button>
+   </p> -->
+
+  <p>
+    <button type="button" class="btn btn-primary btn-lg sharp">Create a group!</button>
+  <p>
 
    <!-- jQuery (necessary for Bootstrap's Javascript Plugins) -->
    <script src="https://code.jquery.com/jquery.js"></script>

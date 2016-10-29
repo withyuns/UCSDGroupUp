@@ -94,3 +94,51 @@ body {
 #dLabel {
      width:400px;    
 }
+
+.col-xs-12 {
+     border: none;
+     background-color: #b08ea2;
+}
+
+
+p.class_descrip {
+     text-align: left;
+     padding-left: 70px;
+     padding-right: 70px;
+     padding-top: 30px;
+}
+
+.panel-body h2 {
+     font-family: Helvetica;
+     font-weight: bold;
+     font-stretch: semi-condensed;
+     text-transform: uppercase;
+     font-size: 48px;
+     color: white;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 20px;
+}
+
+.panel-body p {
+     padding-left: 35px;
+     padding-right: 30px;
+     padding-bottom: 30px;
+     color: white;
+}
+
+.panel-body:hover {
+     background-color: #dcadc8;
+}
+
+.sharp {
+     border-radius: 0;
+     background-color: #70cad1;
+}
+
+.btn-primary {
+     box-shadow: none;
+}
+
+
+
