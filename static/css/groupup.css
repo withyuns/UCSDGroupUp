@@ -46,4 +46,18 @@ body {
   text-indent: 30px;
 }
 
+.form {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.fillin {
+  width: 100%;
+  height: 5em;
+  margin-bottom: 2rem;
+}
+
+#bottom {
+  margin-bottom: 2rem;
+}
 
