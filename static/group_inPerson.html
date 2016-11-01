@@ -1,62 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<html>
-<head>
-   <title>HCI Project Portfolio / changed</title>  
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- this is a comment in HTML -->
+    <title>GroupUp!</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->   
-
-    <!-- Bootstrap -->
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/introHCI.css" rel="stylesheet">
-</head>
 
-<body>
-   <h2>CSE 170/COGS 120 : Collaboration - <b>GroupUp!</b> Skeleton</h2>
-   <h1>:: Group for In-Person</h3><br>
-   <p>Path: Home > main > Class of CSE 170/COGS 120 > Group for In-Person</p>
-   <p align=left>Note, All links to another page colored in blue!</p><br><br>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-   <!--                       These are the same for all pages from here               -->
-   <p align=left>
-      Drop Down Menu on the top-left : <br>
-      <a href="main.html">Home</a>
-   </p>
+    <!-- Custom styles for this template -->
+    <link href="css/groupup.css" rel="stylesheet">
 
-   <p align=right>
-      Drop Down Menu on the top-right : <br>
-      <a href="main.html">My account</a> | 
-      <a href="help.html">Help</a> | 
-      <a href="setting.html">Setting</a> |
-      <a href="index.html">Sign Out</a>
-   </p>
-   <!--                       These are the same for all pages to here                 -->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-   <p align=center class="description_page"><br>
-      <b>Description the page: <br></b>
-      This is in-Person group page. This page should have group information, place, time to meet, and group members.
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-   <br><br></p><br>
+  <body>
+    <!--                        Start Body                            -->
 
-   <p align=center>
-      Create a group! <br>
-      <a href="class_cse170.html">Choose another group | </a><br>
-      <a href="main.html">Choose another class</a><br><br>
-   </p>
+    <!-- ...........................................................................
+        ............................................................................
+        This is Header & Naviagation bar & Drop Down menu!
+    -->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="main.html"><img src="images/logo_top_30.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
 
-   <!-- jQuery (necessary for Bootstrap's Javascript Plugins) -->
-   <script src="https://code.jquery.com/jquery.js"></script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="js/bootstrap.min.js"></script>
-</body>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="main.html">My page</a></li>
+            <li><a href="setting.html">Setting<span class="sr-only">(current)</span></a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="index.html">Sign Out</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- ........................................................................... -->
+
+
+    <!-- ...........................................................................
+        ............................................................................
+        Second part : logo, page menu logo
+    -->
+    <div class="container">
+      <div align="center" class="top_logo">
+        <h1><b>Group for Midterm (in Person)</b></h1>
+        <p>
+          
+        </p> 
+      </div>
+    </div> <!-- /container -->
+    <!-- ........................................................................... -->
+
+
+
+    <!-- ...........................................................................
+        ............................................................................
+        Main part : Contents
+    -->
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 indent">
+          <h2 style="color:#5bc0de">Choose Another group!</h2>
+          <p class="indent">
+            <div class="dropdown"> <!-- Drop Down menu start here -->
+              <button class="btn btn-default dropdown-toggle col-xs-12" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Choose another group!
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu col-xs-12" aria-labelledby="dropdownMenu1">
+                <li><a href="#">CSE 100</a></li>
+                <li><a href="#">CSE 101</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>  <!-- Drop Down menu Ends here -->
+
+
+          </p>
+        </div>
+
+        <div class="col-md-8 indent" id="mypagebody">
+          <h2 style="color:#5bc0de">Information</h2>
+          <p class="indent">
+            <img src="images/figures/character_panda.png"><br>
+            Location : <br>
+            Time : <br>
+            Maximum number of people : <br>
+            Now, the number of people is .
+            Description : <br><br>
+
+          </p>
+       </div>
+
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <!--                        End Body                            -->
+  </body>
 </html>
-

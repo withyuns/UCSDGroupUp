@@ -48,7 +48,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/logo_top_30.png"></a>
+          <a class="navbar-brand" href="main.html"><img src="images/logo_top_30.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 
@@ -89,17 +89,17 @@
         <div class="col-md-6" id="mypagebody" >
           <h2>Class: CSE120</h2>
           <div class="row" align="center">
-            <button type="button" class="btn btn-info">ONLINE</button>
-            <button type="button" class="btn btn-info">INPERSON</button>
+            <button type="button" class="btn btn-info active">IN PERSON</button>
+            <button type="button" class="btn btn-info"><a href="group_create_online.html">ONLINE</a></button>
           </div>
           <form align="left"> 
-            Name: <input class="form" type="text" name="name"> <br>  
+            Group Name: <input class="form" type="text" name="name"> <br>  
             Location: <input class="form"=type="text" name="location"> <br>
             Time: <input class="form" type="text" name="time"> <br>
             Maximum Number of People: <input class="form" type="number" name="max" min="2" max="100">
-            Description: <input class="fillin" type="text" name="description"> <br>
+            Description: <textarea class="fillin" rows="5" cols="50"></textarea> <br>
             <div id="bottom" align="center">
-            <button type="button" class="btn btn-info">Creat Group!</button>
+            <button type="button" class="btn btn-info">Create Group!</button>
             </div>
           </form>
         </div>

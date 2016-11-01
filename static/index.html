@@ -2,7 +2,7 @@
 
 <html>
 <head>
-   <title>HCI Project Portfolio / changed</title>  
+   <title>GroupUp! Log in</title>  
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- this is a comment in HTML -->
@@ -15,42 +15,55 @@
     <![endif]-->   
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/introHCI.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
 </head>
 
 <body>
-   <h2>CSE 170/COGS 120 : Collaboration - <b>GroupUp!</b> Skeleton</h2>
-   <h1>:: First page</h3><br>
-   <p>Path: Home</p>
-   <p align=left>Note, All links to another page colored in blue!</p><br><br>
 
-   <p align=left>
-      Drop Down Menu on the top-left : <br>
-      <a href="index.html">Home</a>
-   </p>
+  <html lang="en-US">
+  <head>
 
-   <p align=right>
-      Drop Down Menu on the top-right : <br> 
-      <a href="help.html">Help</a> | 
-      <a href="setting.html">Setting</a>
-   </p>
+    <meta charset="utf-8">
 
-   <p align=center class="description_page"><br>
-      <b>Description the page: <br></b>
-      Now, you are in Login Page
-   <br><br></p><br>
+    <title>Login</title>
 
-   <p align=center>
-      <a href="main.html">Sign in</a> | 
-      <a href="signup.html">Sign Up</a>
-   </p>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
 
-   <!-- jQuery (necessary for Bootstrap's Javascript Plugins) -->
-   <script src="https://code.jquery.com/jquery.js"></script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="js/bootstrap.min.js"></script>
-</body>
+    <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div id="login">
+
+        <form action="main.html" method="get">
+
+          <fieldset class="clearfix">
+
+            <p><span class="fa fa-user"></span><input type="text" value="Name" onBlur="if(this.value == '') this.value = 'Name'" onFocus="if(this.value == 'Name') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+            <p><span class="fa fa-lock"></span><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+            <p><input type="submit" value="Sign In"></p>
+
+          </fieldset>
+
+        </form>
+
+        <p>Not a member? <a href="signup.html">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
+
+      </div> <!-- end login -->
+
+    </div>
+
+  </body>
 </html>
 
+</body>
+
+</html>
