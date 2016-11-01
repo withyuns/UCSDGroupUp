@@ -3,11 +3,16 @@ body {
 }
 
 #mypagebody {
-	background-color: #eee;
+	  background-color: #eee;
+    border-radius: 50px; 
+    -moz-border-radius: 50px; 
+    -webkit-border-radius: 50px; 
+    /*padding:10px;*/
+    border: 0px solid #800000;
 }
 
 .container {
-    margin-top: 0px;
+   margin-top: 0px;
     padding-top: 0px;
 	/*height: 70px;*/
 }
@@ -21,9 +26,15 @@ body {
     line-height: 300%;
 }
 
-.top_logo {
-    height: 80px;
+.group_descrpt {
+    background-color: #eee;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 0px solid #800000;
 }
+
+
 
 .navbar-static-top {
   margin-bottom: 19px;
@@ -32,3 +43,42 @@ body {
 .indent {
   text-indent: 30px;
 }
+<<<<<<< HEAD
+=======
+
+.form {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.fillin {
+  width: 100%;
+  height: 5em;
+  margin-bottom: 2rem;
+}
+
+#bottom {
+  margin-bottom: 2rem;
+}
+
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #0099cc;
+  color: #0099cc;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #33a6cc;
+  border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+  border-color: #007299;
+  color: #007299;
+  box-shadow: none;
+}
+
+>>>>>>> 4f4786a6538271ea1884ed32a1d6921bb8fbbb15
