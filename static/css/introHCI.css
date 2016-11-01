@@ -75,6 +75,10 @@ body {
      width: 500px;
 }
 
+#mypagebody {
+     background-color: white;
+}
+
 .col-md-4 {
      font-family: Tahoma;
      font-size: 150%;
