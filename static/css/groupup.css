@@ -1,5 +1,5 @@
 body {
-  min-height: 2000px;
+  /* min-height: 2000px; */
 }
 
 #mypagebody {
@@ -10,6 +10,15 @@ body {
     margin-top: 0px;
     padding-top: 0px;
 	/*height: 70px;*/
+}
+
+.container p {
+    margin: 2px;
+    padding: 3px;
+}
+
+.elem_list {
+    line-height: 300%;
 }
 
 .top_logo {
