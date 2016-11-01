@@ -2,10 +2,6 @@ body {
   /* min-height: 2000px; */
 }
 
-a:link {
-    color: white;
-}
-
 #mypagebody {
 	  background-color: #eee;
     border-radius: 50px; 
