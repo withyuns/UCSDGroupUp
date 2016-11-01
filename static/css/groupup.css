@@ -81,3 +81,27 @@ body {
   box-shadow: none;
 }
 
+.panel {
+  background-color: white;
+}
+
+.panel:hover {
+  background-color:;
+}
+
+.panel-body {
+  background-color: white;
+}
+
+#rectangle.button {
+  background-color: #ffed4a;
+  border-color: #ffed4a;
+}
+
+#rectangle:hover {
+  background-color: #ffed4a;
+  border-color: #ffed4a;
+}
+
+
+
