@@ -62,6 +62,16 @@ body {
   margin-bottom: 2rem;
 }
 
+h2.group-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#icons img{
+  overflow: hidden;
+  display: inline;
+}
+
 .btn.outline {
   background: none;
   padding: 12px 22px;
@@ -94,14 +104,24 @@ body {
   background-color: white;
 }
 
-#rectangle.button {
+#online.btn {
   background-color: #ffed4a;
   border-color: #ffed4a;
 }
 
-#rectangle:hover {
+#online.btn:hover {
   background-color: #ffed4a;
   border-color: #ffed4a;
+}
+
+#in-person.btn {
+  background-color: #ff6c4a;
+  border-color: #ff6c4a;
+}
+
+#in-person.btn:hover {
+  background-color: #ff6c4a;
+  border-color: #ff6c4a;
 }
 
 

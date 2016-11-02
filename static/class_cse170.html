@@ -86,15 +86,15 @@
     -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-            <h2>Choose Another class</h2>
+        <div class="col-md-4" align="center">
+            <h3>Choose Another Class</h3>
             <!-- Single button -->
             <div class="col-xs-12 btn-group">
               <button type="button" class="col-xs-12 btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Action <span class="caret"></span>
+                Current Classes <span class="caret"></span>
               </button>
               <ul class="col-xs-12 dropdown-menu">
-                <li><a href="#">Choose Another classes</a></li>
+                <li><a href="#">Choose Another Class</a></li>
                 <li><a href="#">CSE 120</a></li>
                 <li><a href="#">CSE 131</a></li>
                 <li role="separator" class="divider"></li>
@@ -108,9 +108,13 @@
                 <div class="class_elem">
               
                   <div class="col-xs-12 container-fluid panel panel-default" data-toggle="collapse" data-target="#demo1">
-                    <h4><button id="rectangle" type="button" class="btn btn-info">Online</button> 
+                    <h4 class="text-uppercase"><button id="online" type="button" class="btn btn-info">Online</button> 
                     Study For Midterm! Midterm #2</h4>
-                      <img src="images/people_40.png"> <p>Max: 5 people</p>
+                    <div id="icons">
+                      <img class="col-xs-1" src="images/people_40.png"/> <p>Max: 5 people</p>
+                      <img class="col-xs-1" src="images/location_40.png" align="center"/><p>Facebook</p>
+                      <img class="col-xs-1" src="images/time_40.png"/><p>2 - 4 PM</p>
+                    </div>
                   </button>
                   <div id="demo1" class="collapse">
                     <p class="panel-body class_descrip"> <br>Description: Hey guys! This is group for midterm!<br>
@@ -120,12 +124,15 @@
                 </div>
 
                    <div class="col-xs-12 container-fluid panel panel-default" data-toggle="collapse" data-target="#demo2">
-                    <h4><button id="rectangle" type="button" class="btn btn-info">In-Person</button> Group Study Session for Midterm!</h4>
-                     <img src="images/people_40.png"> <p>Max: 10 people</p>
+                    <h4 class="text-uppercase"><button id="in-person" type="button" class="btn btn-info">In-Person</button> Group Study Session for Midterm!</h4>
+                    <div id="icons">
+                     <img class="col-xs-1" src="images/people_40.png"/><p>Max: 10 people</p>
+                     <img class="col-xs-1" src="images/location_40.png"/><p>Geisel, 2nd Floor East</p>
+                     <img class="col-xs-1" src="images/time_40.png"/> <p>9-12 AM</p>
+                    </div>
                   </button>
                   <div id="demo2" class="collapse">
                     <p class="panel body class_descrip"> 
-                    <hr>
                     <br>Description: Hey guys! This is group for midterm!<br>
                     <a href="group_inPerson.html"><br><button type="button" class="btn btn-info">Join Group!</button></a><br></p>
                   </p></div>
